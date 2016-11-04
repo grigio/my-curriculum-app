@@ -19,12 +19,12 @@ export default class AppContainer extends Component {
   }
 
   componentDidMount () {
-    // default items load
-    // this.loadItems(this.state.filter)
+    // trigger items load
     this.fetchJobs()
   }
 
   fetchJobs() {
+    // fetch(`https://grigio.github.io/my-curriculum-app/jobs.json`)
     fetch(`${process.env.PUBLIC_URL}/jobs.json`)
       .then( req => req.json())
       .then( json => this.setState({ jobs: json}) )
@@ -40,29 +40,11 @@ export default class AppContainer extends Component {
   }
 
   setFilterTag(tag) {
-    // ev.preventDefault()
-    // ev.stopPropagation()
-    console.log(tag)
     const currentFilterTag = self.state.filterTag
     self.setState({filterTag: (currentFilterTag === tag) ? null : tag})
-    console.log(this)
-    // console.log(this.filterTag)
-
-    // const currentFilterTag = this.filterTag
-    // this.setState({filterTag: (currentFilterTag === tag) ? null : tag})
-    // console.log(this)
   }
 
-  // loadItems (filter) {
-  //   this.setState({filter: filter})
-  //   // HACK: to avoid React state change race condition
-  //   setTimeout(() => {
-  //     this.loadMore('reset')
-  //   }, 0)
-  // }
-
-
-// pass state and set filter
+// pass state and functions
   render () {
     return (
       <App 
