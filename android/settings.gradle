@@ -1,0 +1,3 @@
+rootProject.name = 'HAgnosticNews'
+
+include ':app'
