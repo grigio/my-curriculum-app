@@ -1,0 +1,72 @@
+[
+  {
+    "company": "Corso JavaScript",
+    "role": "Founder / Teacher",
+    "desc": "Video course about the new ES6 JavaScript (in italian)",
+    "year": "2015",
+    "technologies": ["linux", "react", "nodejs", "teacher", "ubuntu"]
+  },
+  {
+    "company": "Vision",
+    "role": "Software architect",
+    "desc": "Vision is a realtime online eye check exam. I implemented the prototype and organized the architecture to deploy it.",
+    "year": "2014",
+    "technologies": ["linux", "docker", "nodejs", "nginx", "ubuntu", "mongodb", "meteor"]
+  },
+  {
+    "company": "Ed.Master",
+    "role": "Tech writer",
+    "desc": "I've published in italian tutorials about Meteor IoProgrammo luglio/agosto 2014 and novembre/dicembre 2014",
+    "year": "2014",
+    "technologies": ["javascript", "meteor", "nodejs"]
+  },
+  {
+    "company": "Freelance",
+    "role": "Full Stack Developer / UX/UI / Consultant",
+    "desc": "I started to be a freelancer and I worked with several clients and with different groups of developers. Planned features and fixed bugs on their projects.",
+    "year": "2012",
+    "technologies": ["javascript", "meteor","mongodb", "linux", "nodejs","cordova", "docker"]
+  },
+  {
+    "company": "Seac02 S.r.l",
+    "role": "Software Developer",
+    "desc": "I developed mainly a custom backend in Ruby on rails for Fiat (FCA) and helped the development of the frontend.",
+    "year": "2012",
+    "technologies": ["javascript", "ruby","rails", "cordova"]
+  },
+  {
+    "company": "Automata s.p.a",
+    "role": "Trainer",
+    "desc": "I prepared and build a custom Linux livecd to teach a course about Ruby on Rails framework to the Automata employees",
+    "year": "2011",
+    "technologies": ["linux", "ruby","rails", "teacher", "ubuntu"]
+  },
+  {
+    "company": "Accenture",
+    "role": "Consultant",
+    "desc": "I joined in a team dedicated to a custom Android build for the automotive industry.",
+    "year": "2011",
+    "technologies": ["linux", "android"]
+  },
+  {
+    "company": "CS degree / Università di Torino",
+    "role": "Diploma",
+    "desc": "I got the degree in Computer Science",
+    "year": "2010",
+    "technologies": ["java", "algorithm"]
+  },
+  {
+    "company": "Uninfo",
+    "role": "PHP developer",
+    "desc": "I've designed, build and deployed a custom CMS based on Phpnuke and PHP to manage internal documents",
+    "year": "2002-2003",
+    "technologies": ["php", "linux", "mysql"]
+  },
+  {
+    "company": "Edimedia SRL",
+    "role": "Flash and PHP developer",
+    "desc": "I worked on several projects and interactive animations with Flash and PHP",
+    "year": "2000",
+    "technologies": ["flash", "php", "mysql"]
+  }
+]
